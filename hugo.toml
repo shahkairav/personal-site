@@ -1,4 +1,39 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+# Top-level config
+baseURL = "https://example.org/"
+title = "My New Hugo Site"
 theme = "hugo-bearcub"
+languageCode = "en-us"
+copyright = "Kairav Shah (CC)"
+
+# SEO robots.txt file
+enableRobotsTXT = true
+
+# Syntax configuration
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[params]
+  description = "TBD"
+
+  # Path to favicon file
+  favicon = "images/favicon.png"
+
+  # OpenGraph title
+  title = "TBD"
+
+  # Date formatting
+  dateFormat = "2006-01-02"
+
+  themeStyle = "herman"
+  generateSocialCard = true
+
+  [params.social]
+    twitter = "TBD"
+    facebook_admin = "TBD"
+
+  [params.author]
+    name = "Kairav Shah"
+    email = "kairavshah1702@gmail.com"
